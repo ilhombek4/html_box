@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: pink;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 50px;
+}
+.a1{
+background-color: purple;
+width: 250px;
+height: 250px;
+gap: 10px;
+border-radius: 20px;
+margin-bottom: 30px;
+display: flex;
+padding: 10px;
+}
+.a1 div{
+width: 50px;
+height: 50px;
+background-color: orange;
+border: 2px solid black;
+border-radius: 10px;
+}
